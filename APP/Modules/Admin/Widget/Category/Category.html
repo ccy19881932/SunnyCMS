@@ -1,0 +1,5 @@
+<div style="width:{$width}%;height:{$height}%;overflow-x:hidden;overflow-y:scroll;padding:10px;border:1px solid #DDDDDD;">
+	<foreach name="trees" item="tree" key="key">
+		<label for="category-{$tree.term_id}">{$tree.html}<input type="checkbox" id="category-{$tree.term_id}" name="{$return_name}[]" <?php if(in_array($tree['term_id'], $index))echo 'checked';?> value="{$tree.term_id}">　{$tree.name}</label>
+	</foreach>
+</div>

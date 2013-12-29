@@ -1,0 +1,907 @@
+[ 2013-11-24T19:30:43+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:31:20+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:31:59+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:32:58+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:33:07+08:00 ] 127.0.0.1 /thinkphp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files\wamp\www\thinkphp\Home\Lib\Action\IndexAction.class.php Á¨¨ 16 Ë°å.
+
+[ 2013-11-24T19:33:20+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:33:25+08:00 ] 127.0.0.1 /thinkphp/index.php/index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:34:16+08:00 ] 127.0.0.1 /thinkphp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files\wamp\www\thinkphp\Home\Lib\Action\IndexAction.class.php Á¨¨ 16 Ë°å.
+
+[ 2013-11-24T19:35:00+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2013-11-24T19:35:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files\wamp\www\thinkphp\Home\Lib\Action\IndexAction.class.php Á¨¨ 16 Ë°å.
+
+[ 2013-11-24T19:35:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php Á¨¨ 40 Ë°å.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php Á¨¨ 47 Ë°å.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T19:35:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®[./Home/Tpl/Index/index.html]
+
+[ 2013-11-24T19:40:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017000s ]
+
+[ 2013-11-24T19:43:40+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T19:48:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T19:54:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T19:54:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T19:55:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T19:55:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T19:57:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: good F:\Program Files\wamp\www\thinkphp\Home\Runtime\Cache\c307135759b7cc364a1a7f59fcfe7b99.php Á¨¨ 8 Ë°å.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T19:57:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:08:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:09:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:09:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:09:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.093000s ]
+ERR: 1146:Table 'test.think_list' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `think_list`
+SQL: SELECT * FROM `think_list`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.think_list' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT * FROM `think_list` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2013-11-24T20:10:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.think_list' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `think_list`
+SQL: SELECT * FROM `think_list`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.think_list' doesn't exist
+ [ SQLËØ≠Âè• ] : SELECT * FROM `think_list` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2013-11-24T20:11:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:11:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:11:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:11:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2013-11-24T20:11:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:11:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2013-11-24T20:12:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:22:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Access denied for user ''@'localhost' to database 'ost=localhost;dbname=test;port=3306'
+
+[ 2013-11-24T20:25:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Access denied for user ''@'localhost' to database 'ocalhost;dbname:test;port:3306'
+
+[ 2013-11-24T20:25:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:25:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:10+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+NOTIC: [2] mysql_connect():  F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+ERR: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2013-11-24T20:26:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:32:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:32:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:32:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:32:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:32:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:32:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: m_conn F:\Program Files\wamp\www\thinkphp\Home\Lib\Action\IndexAction.class.php Á¨¨ 13 Ë°å.
+
+[ 2013-11-24T20:33:40+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.012000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:39:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Array to string conversion F:\Program Files\wamp\www\thinkphp\Home\Runtime\Cache\c307135759b7cc364a1a7f59fcfe7b99.php Á¨¨ 8 Ë°å.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-24T20:39:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:40:52+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: value F:\Program Files\wamp\www\thinkphp\Home\Runtime\Cache\c307135759b7cc364a1a7f59fcfe7b99.php Á¨¨ 9 Ë°å.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-24T20:44:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.199000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

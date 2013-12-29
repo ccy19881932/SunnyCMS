@@ -1,0 +1,33 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="Zh_cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>登陆</title>
+	<style>
+		* {
+			padding: 0 auto;
+			margin: 0 auto;
+		}
+		body{
+			display: block;
+			width:50%;
+		}
+		.login{
+			display: block;
+			width:270px;
+			margin:20px auto;
+		}
+		.login input{
+			margin: 10px auto;
+		}
+	</style>
+</head>
+<body>
+	<form action="__URL__/dologin" method="post" class="login">
+		用户名：<input type="text" name="username" /><br/>
+		密　码：<input type="text" name="password" /><br/>
+		验证码：<input type="text" name="code" /><img style="display:inline-block;"  src="__APP__/Login/code" onclick='this.src=this.src+"?"+Math.random;' /><br/>
+		<input type="submit" name="提交"/>
+	</form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'AI_id', 1 => 'uid', 2 => 'group_id', '_autoinc' => true, '_pk' => 'AI_id', '_type' => array ( 'AI_id' => 'mediumint(10)', 'uid' => 'mediumint(8) unsigned', 'group_id' => 'mediumint(8) unsigned', ), );?>

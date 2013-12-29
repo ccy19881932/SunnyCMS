@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>已经有同名插件存在！

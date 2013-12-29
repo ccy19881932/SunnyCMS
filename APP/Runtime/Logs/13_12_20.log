@@ -1,0 +1,6 @@
+[ 2013-12-20T23:16:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Node/index.html
+ERR: 无法加载模块:Node
+
+[ 2013-12-20T23:18:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Role/index.html
+ERR: 无法加载模块:Role
+

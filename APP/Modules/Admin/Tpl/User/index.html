@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css" />
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
+<!--    <script type="text/javascript" src="__PUBLIC__/Js/jquery.sorted.js"></script>-->
+    <script type="text/javascript" src="__PUBLIC__/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/ckform.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+
+ 
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">    
+    用户名称：
+    <input type="text" name="username" id="search_username"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" data-target="#add" data-toggle="modal">新增用户</button>
+    <!-- <a href="#myModal" role="button" class="btn" data-toggle="modal">查看演示案例</a> -->
+</form>
+<!-- {$users|dump=###} -->
+<table class="table table-bordered table-hover definewidth m10">
+    <thead>
+    <tr>
+        <th>用户id</th>
+        <th>用户名称</th>
+        <th>所属权限组</th>
+        <th>用户邮箱</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+        <foreach name="users" item="user">
+            <tr>
+                <td>{$user.id}</td>
+                <td>{$user.username}</td>
+                <td>{$user.group}</td>
+                <td>{$user.email}</td>
+                <td>
+                    <a href="{:U(GROUP_NAME.'/User/edit')}">编辑</a>                
+                </td>
+            </tr>
+        </foreach>
+</table>
+
+<!-- Modal -->
+<div id="add" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Modal header</h3>
+    </div>
+    <form method="post" class="definewidth m20" id="form_add_user">
+        <div class="modal-body">
+            <table class="table table-bordered table-hover definewidth m10">
+                <tr>
+                    <td width="20%" class="tableleft">用户名</td>
+                    <td><input type="text" name="username" required/></td>
+                </tr>
+                <tr>
+                    <td class="tableleft">密码</td>
+                    <td><input type="password" name="password"/></td>
+                </tr>
+                <tr>
+                    <td class="tableleft">用户组</td>
+                    <td>
+                        <select name="usergroup">
+                            <foreach name="list" item="group">
+                                <option value="{$group.id}">{$gourp.title}</option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableleft">邮箱</td>
+                    <td><input type="text" name="email"/></td>
+                </tr>
+            </table>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary" type="button" id="form_submit">保存</button>&nbsp;&nbsp;<button type="button" class="btn" data-dismiss="modal" aria-hidden="true" id="close_model">关闭</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
+<script>
+    $(function () {
+        // 显示模态窗口
+        $('#add').on('show', function () {
+            // 动态加载js文件
+            $.getScript("http://malsup.github.com/jquery.form.js",function(){
+                $.getScript("http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js",function(){
+                        // 表单验证
+                       $("#form_add_user").validate({
+                            event: 'blur',
+                            rules: {
+                                username:{
+                                    required: true,
+                                    remote: {
+                                        url : "{:U(GROUP_NAME.'/User/checkUsername')}",
+                                        type: "post",
+                                    }
+                                },
+                                password: {
+                                    required: true,
+                                    rangelength: [6, 30]
+                                },
+                                email: {
+                                    required: true,
+                                    email: true,
+                                    remote: {
+                                        url:"{:U(GROUP_NAME.'/User/checkEmail')}",
+                                        type: "post",
+                                    }
+                                }
+                                
+                            },
+                            messages: {
+                                username:{
+                                    required: '用户名不可为空',
+                                    remote: '此用户已存在！',
+                                },
+                                password: {
+                                    required: '密码不可为空',
+                                    rangelength: jQuery.format("密码长度必须在{0}到{1}之间！"),
+                                },
+                                email: {
+                                    required: '请填写邮箱',
+                                    email: '请输入正确的邮箱格式！',
+                                    remote: '邮箱已被注册',
+                                },     
+                            },
+                            submitHandler: function(form) { 
+                                $(form).ajaxSubmit({
+                                    type:"post",
+                                    url:"{:U(GROUP_NAME.'/User/addUser')}",
+                                    success: function(data){
+                                        if(data){
+                                            $("#form_submit").removeAttr('disabled').text('保存');
+                                            $('#close_model').click();
+                                            window.location.reload();
+                                        }else{
+                                            alert('保存失败');
+                                            $("#form_submit").removeAttr('disabled').text('保存');
+                                        }
+                                        
+                                    },
+                                    error: function(){
+                                        alert('服务器繁忙，请稍后');
+                                        $("#form_submit").removeAttr('disabled').text('保存');
+                                    },
+                                    beforeSubmit: function(){
+                                        $("#form_submit").attr('disabled','disabled').text('保存中...');
+                                    }
+                                });
+                                return false;
+                            },
+                            // debug: true, 
+                        });//验证结束
+                });
+            });
+        });
+    });
+	function del(id)
+	{	
+		if(confirm("确定要删除吗？"))
+		{
+		
+			var url = "index.html";
+			
+			window.location.href=url;		
+		
+		}
+	}
+</script>

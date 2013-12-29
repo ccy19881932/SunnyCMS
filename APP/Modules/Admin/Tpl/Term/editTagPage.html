@@ -1,0 +1,30 @@
+<include file="Common:header" />
+
+<form action="{:U('Term/editTag')}" method="post" class="definewidth m20">
+    <table class="table table-bordered table-hover definewidth m10">
+        <tr>
+            <td class="tableleft">标签名称</td>
+            <td><input type="text" name="tag_name" value="{:I('name')}"/></td>
+        </tr>
+        <tr>
+            <td class="tableleft">标签别名</td>
+            <td><input type="text" name="tag_slug" value="{:I('slug')}"/></td>
+        </tr>
+        <tr>
+            <td class="tableleft"></td>
+            <td>
+                <input type="hidden" value="{:I('pid')}" name="tag_id">
+                <button type="submit" class="btn btn-primary" type="button">保存</button>				 &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<include file="Common:footer" />
+<script>
+    $(function () {
+		$('#backid').click(function(){
+				window.location.href="{:U('Term/tags')}";
+		 });
+
+    });
+</script>

@@ -1,0 +1,44 @@
+<include file="Common:header" />
+
+<form action="{:U('Term/editTerm')}" method="post" class="definewidth m20">
+    <table class="table table-bordered table-hover definewidth m10">
+        <tr>
+            <td width="20%" class="tableleft">选择父类</td>
+            <td>
+                <select name="term_parent" id="term_parent">
+                        <option value="0">无</option>
+                    <foreach name="terms" item="term">
+                        <?php if ($term['term_id'] == I('pid')) {
+                            continue;
+                        } ?>
+                        <option value="{$term.term_id}" <?php echo $term['term_id']==I('parent')?'selected':'';?>>{$term.html}{$term.name}</option>
+                    </foreach>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="tableleft">分类名称</td>
+            <td><input type="text" name="term_name" value="{:I('name')}"/></td>
+        </tr>
+        <tr>
+            <td class="tableleft">分类别名</td>
+            <td><input type="text" name="term_slug" value="{:I('slug')}"/></td>
+        </tr>
+        <tr>
+            <td class="tableleft"></td>
+            <td>
+                <input type="hidden" value="{:I('pid')}" name="term_id">
+                <button type="submit" class="btn btn-primary" type="button">保存</button>				 &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<include file="Common:footer" />
+<script>
+    $(function () {
+		$('#backid').click(function(){
+				window.location.href="{:U('Term/index')}";
+		 });
+
+    });
+</script>

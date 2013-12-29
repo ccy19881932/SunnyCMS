@@ -1,0 +1,9 @@
+[ 2013-11-25T09:15:52+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/goof
+ERR: 非法操作:goof
+
+[ 2013-11-25T13:57:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/1
+ERR: Model:sava您所请求的方法不存在！
+
+[ 2013-11-25T18:20:18+08:00 ] 127.0.0.1 /thinkphp/index.php/index/index
+ERR: 无法加载模块:index
+

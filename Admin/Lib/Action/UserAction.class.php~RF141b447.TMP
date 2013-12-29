@@ -1,0 +1,54 @@
+<?php 
+	class UserAction extends BasecontrolAction {
+		public $m_section_name;
+
+		public function __construct() {
+			parent::__construct();
+			$this->m_section_name = '所有用户';
+		}
+
+		public function index () {
+			$tpl_showAllUser = $this->showAllUser();
+			$this->assign('tpl_showAllUser', $tpl_showAllUser);
+			$this->output('User:index',true);
+		}
+
+		public function showAllUser () {
+			if( $this->checkAdmin() ) {
+				$m_conn = D('UserView');
+				
+				if( $this->isAjax() ) {		
+					$avg = $this->_post('avg','',false);
+					$result = $m_conn->listUsers($avg);
+					$this->assign('result', $result);
+					$allusers = $this->fetch('User/showAllUser');
+					//$json_result = json_encode($result);
+					$this->ajaxReturn($allusers, $this->m_section_name, 1);
+				} else {
+					$result = $m_conn->listUsers('u_id');
+					$this->assign('result', $result);
+					return $this->fetch('User/showAllUser');
+				}
+			}
+		}
+
+		public function testReletion () {
+			$m_conn = D('List');
+			$data['name'] = "chenchaoyi123";
+			$data['g_access'] = array(
+					array('uid'		=> 100,
+					'group_id'	=> 100),
+				);
+			$result = $m_conn->relation("g_access")->where('id=1')->save($data);
+			//$result = $m_conn->relation(true)->select();
+			//$sql = "INSERT INTO {$m_conn->getTableName()}(`name`, `password`, `sex`, `local`, `age`) VALUES('%s', '%d', '%d', '%s', '%d')";
+			//var_dump($m_conn->execute($sql, array('xinglaide', '123', '1', 'jiujiang', '20')));
+			echo "<pre>";
+			print_r($result);
+			echo "</pre>";
+			$this->display();
+		}
+
+
+	}
+ ?>

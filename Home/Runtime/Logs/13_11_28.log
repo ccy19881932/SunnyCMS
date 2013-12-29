@@ -1,0 +1,540 @@
+[ 2013-11-28T19:33:39+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.029001s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-28T19:35:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:35:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:35:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:38:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:39:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.065004s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:39:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:43:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:44:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-11-28T19:45:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-28T19:45:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_list` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-28T20:01:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20worle%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:02:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:03:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:03:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:04:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:04:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:04:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:04:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:04:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:04:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:10:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:10:32+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:index
+
+[ 2013-11-28T20:10:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:12:49+08:00 ] 127.0.0.1 /thinkphp/index.php/ndex/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Ndex
+
+[ 2013-11-28T20:12:54+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:36+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:36+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:37+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:37+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:37+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:37+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:37+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:37+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:38+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:38+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:38+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:38+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:38:38+08:00 ] ERR: 写一个日志
+[ 2013-11-28T20:38:38+08:00 ] 127.0.0.1 /thinkphp/index.php/index/modify/id/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:41:52+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:42:53+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:42:53+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:42:54+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:42:54+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:15+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:31+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:34+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:35+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:36+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:53+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:43:54+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:43:58+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:43:59+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:43:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/%3Cp%3Ehello%20world&%3C/p%3E
+NOTIC: 建议使用I方法替代_GET
+
+[ 2013-11-28T20:51:39+08:00 ] ERR: 再写1000个日志
+[ 2013-11-28T20:51:39+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/modify/id/2
+NOTIC: 建议使用I方法替代_GET
+

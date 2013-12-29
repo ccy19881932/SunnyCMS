@@ -1,0 +1,637 @@
+[ 2013-12-12T14:12:07+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T14:16:15+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:16:16+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2013-12-12T14:16:20+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:16:21+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:16:22+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:16:23+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+
+[ 2013-12-12T14:18:24+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:18:25+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:18:26+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:18:27+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2013-12-12T14:20:25+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:20:26+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2013-12-12T14:20:27+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:24:31+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+
+[ 2013-12-12T14:24:32+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+
+[ 2013-12-12T14:24:33+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:24:34+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:24:42+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2013-12-12T14:24:43+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:28:08+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+
+[ 2013-12-12T14:28:09+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2013-12-12T14:28:10+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:35:34+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T14:36:00+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+
+[ 2013-12-12T14:41:01+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+
+[ 2013-12-12T14:41:40+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T14:41:54+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T14:41:55+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T14:42:53+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:02:45+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014000s ]
+
+[ 2013-12-12T15:02:46+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+
+[ 2013-12-12T15:02:49+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:10:05+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:16:16+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:16:31+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:16:39+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:16:46+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:19:48+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:20:13+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:23:13+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:23:23+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:23:29+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:26:26+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:26:34+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:26:59+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:27:06+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:29:29+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+ERR: Action:getTableName您所请求的方法不存在！
+
+[ 2013-12-12T15:30:08+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+ERR: Action:getTableName您所请求的方法不存在！
+
+[ 2013-12-12T15:33:14+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T15:35:31+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:49:57+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user_view` [ RunTime:0.006000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_view`
+SQL: SELECT * FROM `think_user_view`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user_view` 
+
+[ 2013-12-12T15:50:25+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:50:29+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:50:31+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:50:32+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:50:35+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-12-12T15:50:44+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user_view` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_view`
+SQL: SELECT * FROM `think_user_view`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user_view` 
+
+[ 2013-12-12T15:50:59+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user_view` [ RunTime:0.007000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_view`
+SQL: SELECT * FROM `think_user_view`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user_view` 
+
+[ 2013-12-12T15:51:04+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user_view` [ RunTime:0.009000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_view`
+SQL: SELECT * FROM `think_user_view`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user_view` 
+
+[ 2013-12-12T15:51:08+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user_view` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_view`
+SQL: SELECT * FROM `think_user_view`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user_view` 
+
+[ 2013-12-12T15:51:28+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user_view` [ RunTime:0.004000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_view`
+SQL: SELECT * FROM `think_user_view`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.think_user_view' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user_view` 
+
+[ 2013-12-12T17:54:38+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-12T17:54:52+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T17:54:54+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.006000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T17:56:21+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.073000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.025000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T18:01:59+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.095000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.000000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T18:02:11+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T18:02:20+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.006000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T18:02:22+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T18:02:22+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.000000s ]
+
+[ 2013-12-12T18:02:31+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.004000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.001000s ]
+
+[ 2013-12-12T18:02:34+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.002000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.000000s ]
+
+[ 2013-12-12T18:02:46+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.000000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.id AS gid,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_group.rules AS grules FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  [ RunTime:0.000000s ]
+ERR: Action:dump您所请求的方法不存在！
+
+[ 2013-12-12T20:51:34+08:00 ] 127.0.0.1 /thinkphp/index.php/user/index.html
+ERR: 模板不存在[./Admin/Tpl/UserAction/showAllUser.php]
+
+[ 2013-12-12T21:04:17+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.006000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_rule.name AS rule_name,auth_rule.title AS rule_function,auth_rule.status AS rule_status FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  JOIN think_auth_rule auth_rule ON auth_rule.id = auth_group.rules  [ RunTime:0.002001s ]
+
+[ 2013-12-12T21:07:04+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.006000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_rule.name AS rule_name,auth_rule.title AS rule_function,auth_rule.status AS rule_status FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  JOIN think_auth_rule auth_rule ON auth_rule.id = auth_group.rules  [ RunTime:0.001001s ]
+
+[ 2013-12-12T21:08:08+08:00 ] 127.0.0.1 /thinkphp/index.php/user/showAllUser.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_list` [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.005000s ]
+SQL: SELECT list.id AS uid,list.name AS uname,list.sex AS sex,list.local AS local,list.age AS age,auth_group_access.group_id AS group_id,auth_group.title AS gtitle,auth_group.status AS gstatus,auth_rule.name AS rule_name,auth_rule.title AS rule_function,auth_rule.status AS rule_status FROM think_list list  JOIN think_auth_group_access auth_group_access ON list.id = auth_group_access.uid  JOIN think_auth_group auth_group ON auth_group_access.group_id = auth_group.id  JOIN think_auth_rule auth_rule ON auth_rule.id = auth_group.rules  [ RunTime:0.001000s ]
+

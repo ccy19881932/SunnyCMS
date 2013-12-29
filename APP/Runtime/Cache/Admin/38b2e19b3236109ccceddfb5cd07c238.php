@@ -1,0 +1,120 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css" />
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
+
+    <link rel="stylesheet" href="__PUBLIC__/plugin/kindeditor/themes/default/default.css" />
+    <script type="text/javascript" src="__PUBLIC__/plugin/kindeditor/kindeditor-all-min.js"></script>
+    <script charset="utf-8" src="__PUBLIC__/plugin/kindeditor/lang/zh_CN.js"></script>
+
+    <script charset="utf-8" src="__PUBLIC__/plugin/iCheck/icheck.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/plugin/iCheck/skins/square/grey.css" />
+    
+</head>
+<body>
+<div class="success alert-success" <?php echo 'style="display:'.$success_display.'"';?> >
+	<button type="button" class="close" data-dismiss="alert">&times;</button>
+	恭喜，文章<?php echo $alert; ?>成功!
+</div>
+<div class="error alert-error" <?php echo 'style="display:'.$error_display.'"';?> >
+	<button type="button" class="close" data-dismiss="alert">&times;</button>
+	文章没有<?php echo $alert; ?>成功...
+</div>
+<form class="left-content" action="<?php echo U( GROUP_NAME.'/Post/newPost', array('post_id' => $post_id)); ?>" method="POST" id="addPosts" name="postArticle">
+	<h2> <?php echo ($post_id<0) ? '在此撰写新文章' :'编辑文章'; ?></h2>
+	<div class="post-body-content">
+		<input class="input-block-level" type="text" placeholder="在此撰写标题" name="title" value="<?php echo $title;?>">
+		<input class="input-block-level" type="text" placeholder="在此撰写摘要(可以留空)" name="excerpt" value="<?php echo $excerpt;?>">
+		<textarea name="content" style="width:100%;height:400px;visibility:hidden;"><?php echo $content; ?></textarea>
+	</div>
+	<div class="post-body-sidebar">
+		<div class="postbox" style="display: block;">
+			<h3 class="hndle"><span>发布</span></h3>
+			<div class="inside">
+				<!-- <button class="btn" type="button">发布</button> -->
+				<label for="post_direct" class="inline"><input type="radio" name="postCheck" id="post_direct" value="0" <?php echo ( $postCheck == 0 ) ? 'checked' : '' ?>> 公开发布</label>
+				<label for="post_draft" class="inline"><input type="radio" name="postCheck" id="post_draft" value="1" <?php echo ( $postCheck == 1 ) ? 'checked' : '' ?>> 设为私有</label>
+				<label for="post_Recycle" class="inline"><input type="radio" name="postCheck" id="post_Recycle" value="2" <?php echo ( $postCheck == 2 ) ? 'checked' : '' ?>> 放入回收站</label>
+			</div>
+			<div class="actions">
+				<input type="hidden" value="<?php echo isset($post_id) ? $post_id : '-1'; ?>" name="post_id">
+				<input type="submit" style="display:none;" id="submitArticle" name="submitArticle" value="submit">
+				<a class="btn btn-small pull-right" onclick="$('#submitArticle').click();"><i class="icon-certificate"></i> <?php echo $articleAction; ?></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="postbox" style="display: block;">
+			<h3 class="hndle"><span>分类目录</span></h3>
+			<div class="inside">
+			<?php echo W('Category',array('width'=>90,'height'=>90,'index'=>$term_arr,'return_name'=>'cat')); ?>
+			</div>
+		</div>
+		<div class="postbox" style="display: block;">
+			<h3 class="hndle"><span>标签</span></h3>
+		</div>
+	</div>
+</form>
+<script>
+	KindEditor.ready(function(K) {
+		var editor1 = K.create('textarea[name="content"]', {
+			// cssPath : '../plugins/code/prettify.css',
+			// uploadJson : '../php/upload_json.php',
+			// fileManagerJson : '../php/file_manager_json.php',
+			allowFileManager : true,
+			afterCreate : function() {
+				var self = this;
+				K.ctrl(document, 13, function() {
+					self.sync();
+					K('form[name=postArticle]')[0].submit();
+				});
+				K.ctrl(self.edit.doc, 13, function() {
+					self.sync();
+					K('form[name=postArticle]')[0].submit();
+				});
+			}
+		});
+		//prettyPrint();
+	});
+
+	$(document).ready(function(){
+	  $('#post_direct').on('ifCreated', function(event){
+		  $('#post_direct').iCheck('check');
+	  });
+	  $('input').iCheck({
+	    checkboxClass: 'icheckbox_square-grey',
+	    radioClass: 'iradio_square-grey',
+	    increaseArea: '20%' // optional
+	  });
+	  
+	});
+</script>
+    
+    <!-- // <script type="text/javascript" src="__PUBLIC__/Js/jquery.sorted.js"></script> -->
+    <script type="text/javascript" src="__PUBLIC__/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/ckform.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+    <script type="text/javascript" src="__ROOTPUBLIC__/Js/ajax.js"></script>
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    </style>
+	</body>
+</html>

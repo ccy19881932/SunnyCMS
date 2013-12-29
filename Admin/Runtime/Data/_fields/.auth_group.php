@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'title', 2 => 'status', 3 => 'rules', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'mediumint(8) unsigned', 'title' => 'char(100)', 'status' => 'tinyint(1)', 'rules' => 'char(80)', ), );?>

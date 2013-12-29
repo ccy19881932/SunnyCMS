@@ -1,0 +1,3 @@
+<?php if (!defined('THINK_PATH')) exit();?><div style="width:<?php echo ($width); ?>%;height:<?php echo ($height); ?>%;overflow-x:hidden;overflow-y:scroll;padding:10px;border:1px solid #DDDDDD;">
+	<?php if(is_array($trees)): foreach($trees as $key=>$tree): ?><label for="category-<?php echo ($tree["term_id"]); ?>"><?php echo ($tree["html"]); ?><input type="checkbox" id="category-<?php echo ($tree["term_id"]); ?>" name="<?php echo ($return_name); ?>[]" <?php if(in_array($tree['term_id'], $index))echo 'checked';?> value="<?php echo ($tree["term_id"]); ?>">　<?php echo ($tree["name"]); ?></label><?php endforeach; endif; ?>
+</div>

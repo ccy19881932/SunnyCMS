@@ -1,0 +1,327 @@
+[ 2013-12-21T10:24:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.816849697006603
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.6055010611669246
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.40282060543496057
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.13311584135694776
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:05+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.4373161973424706
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.6749671051467645
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.06041830354261846
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.7802160384959375
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.8361564955889824
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.8919116447899953
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Login/verify.html/0.27906919919419804
+ERR: 非法操作:verify.html
+
+[ 2013-12-21T10:24:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/Node/index.html
+ERR: 非法操作:Node
+
+[ 2013-12-21T10:24:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/USER
+ERR: 无法加载模块:USER
+
+[ 2013-12-21T10:24:40+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/DSK
+ERR: 非法操作:DSK
+
+[ 2013-12-21T10:27:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/text
+ERR: 非法操作:text
+
+[ 2013-12-21T10:27:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/test
+ERR: 非法操作:test
+
+[ 2013-12-21T10:27:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/Test
+ERR: 非法操作:Test
+
+[ 2013-12-21T10:27:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/Test
+ERR: 非法操作:Test
+
+[ 2013-12-21T10:28:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/Test
+ERR: 非法操作:Test
+
+[ 2013-12-21T10:28:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/Test
+ERR: 非法操作:Test
+
+[ 2013-12-21T10:28:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/Test
+ERR: 非法操作:Test
+
+[ 2013-12-21T10:28:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/test
+ERR: 非法操作:test
+
+[ 2013-12-21T10:28:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/text
+ERR: 非法操作:text
+
+[ 2013-12-21T10:34:49+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/Index:index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:39+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/Index:index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:40+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/Index:index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:40+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:42+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:43+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:44+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:44+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:50+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:35:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Node/index.html
+ERR: 无法加载模块:Node
+
+[ 2013-12-21T10:41:06+08:00 ] 127.0.0.1 /thinkphp/index.php/thinkphp/index.php/Index/index.html.html
+ERR: 无法加载模块:thinkphp
+
+[ 2013-12-21T10:49:12+08:00 ] 127.0.0.1 /thinkphp/index.php/uuu/index.html
+ERR: 无法加载模块:uuu
+
+[ 2013-12-21T10:49:15+08:00 ] 127.0.0.1 /thinkphp/index.php/uuu/index.html
+ERR: 无法加载模块:uuu
+
+[ 2013-12-21T10:53:30+08:00 ] 127.0.0.1 /thinkphp/index.php/uuu/index.html
+ERR: 非法操作:index
+
+[ 2013-12-21T11:03:37+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/index.html
+ERR: 无法加载模块:Index
+
+[ 2013-12-21T14:12:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:12:08+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:12:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=%E6%92%92%E6%89%93%E5%8F%91%E7%AC%AC%E4%B8%89%E6%96%B9
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:12:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:12:33+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=%E5%AF%B9%E5%8F%B8%E6%B3%95%E6%96%AF%E8%92%82%E8%8A%AC
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=%E7%AC%AC%E4%B8%89%E6%96%B9
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:51+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=%E6%B0%B4%E7%94%B5%E8%B4%B9
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:16:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=%E9%9A%8F%E7%A2%9F%E9%99%84%E9%80%81%E9%83%BD
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:17:10+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:17:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=%E6%B0%B4%E7%94%B5%E8%B4%B9
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:18:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:18:39+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:18:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:18:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html?search=jhg
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:30:16+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:36:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:38:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:39:40+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:41:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:41:52+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:42:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:44:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:44:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:44:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:45:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:45:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:45:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:46:51+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:47:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:47:16+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:48:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:49:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:50:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:50:57+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:52:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:52:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:56:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:58:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T14:58:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:00:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:00:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:01:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:01:37+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:01:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:02:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:03:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:04:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:06:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:06:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:07:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:08:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:09:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:10:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:11:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:11:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:11:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:12:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:13:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:14:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:15:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:16:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:17:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:17:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:28:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Post/allPost.html
+ERR: 非法操作:allPost
+
+[ 2013-12-21T15:29:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-21T15:30:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Post/newPost.html
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Post/newPost.html]
+
+[ 2013-12-21T19:48:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Post/allPost.html
+ERR: 非法操作:allPost
+

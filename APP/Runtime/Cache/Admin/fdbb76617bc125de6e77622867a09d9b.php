@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>更新钩子处插件失败,请卸载后尝试重新安装

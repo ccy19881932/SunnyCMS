@@ -1,0 +1,844 @@
+[ 2007-04-26T00:34:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable/id/23.html
+ERR: Action:where您所请求的方法不存在！
+
+[ 2007-04-26T01:14:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable/id/23.html
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/./APP/Tpl/dispatch_jump.tpl.html]
+
+[ 2007-04-26T01:42:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/newPost.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2007-04-26T01:42:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/newPost/post_id/-1.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2007-04-26T02:01:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/enable/id/23.html
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Plugin/enable.html]
+
+[ 2007-04-26T02:02:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable/id/23.html
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Plugin/disable.html]
+
+[ 2007-04-26T02:56:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/index.html
+ERR: 无法加载模块:Admin
+
+[ 2007-04-26T03:14:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:14:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:14:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:14:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:14:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:14:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:15:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:15:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:15:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:15:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:15:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:15:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2007-04-26T03:19:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:19:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:19:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:19:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:19:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:19:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:20:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:20:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2007-04-26T03:20:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:20:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:20:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:20:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:21:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:21:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:22:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001001s ]
+
+[ 2007-04-26T03:22:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:23:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:23:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:24:08+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001001s ]
+
+[ 2007-04-26T03:24:08+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:24:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:24:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:24:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:24:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:24:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:24:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:25:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:25:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:25:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:25:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2007-04-26T03:25:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:25:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:26:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:26:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:26:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+
+[ 2007-04-26T03:26:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:27:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+
+[ 2007-04-26T03:27:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2007-04-26T03:27:51+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+NOTIC: [8] Undefined variable: url F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 286 行.
+
+[ 2007-04-26T03:27:55+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.010000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.009000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+NOTIC: [8] Undefined variable: url F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 286 行.
+
+[ 2007-04-26T03:27:57+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.009000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.002000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+NOTIC: [8] Undefined variable: url F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 286 行.
+
+[ 2007-04-26T03:28:09+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+NOTIC: [8] Undefined variable: url F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 286 行.
+
+[ 2007-04-26T03:30:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.008000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:30:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:30:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:31:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:31:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:31:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.009000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:32:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:32:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:32:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:33:25+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:33:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:33:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:33:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:35:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+
+[ 2007-04-26T03:36:50+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined variable: id F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_plugin` SET `status`=0 WHERE ( id= )
+

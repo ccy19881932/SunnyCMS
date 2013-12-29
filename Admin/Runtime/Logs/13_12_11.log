@@ -1,0 +1,71 @@
+[ 2013-12-11T18:24:08+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-11T18:24:16+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+
+[ 2013-12-11T18:24:18+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+
+[ 2013-12-11T18:37:48+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-11T19:12:39+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-11T19:12:47+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+
+[ 2013-12-11T19:12:48+08:00 ] 127.0.0.1 /thinkphp/index.php/post/allPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+
+[ 2013-12-11T19:12:49+08:00 ] 127.0.0.1 /thinkphp/index.php/post/newPost
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014000s ]
+
+[ 2013-12-11T19:13:36+08:00 ] 127.0.0.1 /thinkphp/index.php/index/do_login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+

@@ -1,0 +1,50 @@
+/*
+*	Create By CCY
+*/
+.box {
+	display: block;
+}
+.l_al{
+	float:left;
+}
+.r_al{
+	float:right;
+}
+.clear {
+	clear: both;
+}
+
+.page {
+	margin:60px auto 0 auto;
+	width:95%;
+}
+.l-page{	
+	width:20%;
+}
+.r-page{	
+	width:75%;
+	border: 1px solid #DDDDDD;
+	padding:10px 20px;
+}
+.chose a{
+	background-color:#EEEEEE;
+}
+.post-button {
+	float:right;
+	margin:10px;
+}
+.user {
+	background-color:#DFF0D8;
+}
+.group {
+	background-color:#FCF8E3;
+}
+.rule {
+	background-color:#F2DEDE;
+}
+.user-head {
+	background-color:#D9EDF7;
+}
+.user-head td{
+	cursor:pointer;
+}

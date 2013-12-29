@@ -1,0 +1,983 @@
+[ 2013-12-27T09:28:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.015600s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+NOTIC: [8] Undefined variable: result F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 362 行.
+
+[ 2013-12-27T09:28:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.015600s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+
+[ 2013-12-27T09:28:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.015600s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+NOTIC: [8] Undefined variable: result F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Action\PluginAction.class.php 第 363 行.
+
+[ 2013-12-27T09:29:25+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.015600s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388107765,1) [ RunTime:0.109201s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.015600s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.015600s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T09:30:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388107849,1) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T09:35:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=40 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T09:35:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: UPDATE `think_plugin` SET `status`=1 WHERE ( id=40 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T09:35:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=40 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T10:21:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388110884,1) [ RunTime:0.000000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T10:32:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 41 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.005001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T10:32:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388111568,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T10:33:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T10:33:31+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388111611,1) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T10:33:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=43 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T10:33:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001001s ]
+SQL: UPDATE `think_plugin` SET `status`=1 WHERE ( id=43 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=43 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 43 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/enable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: UPDATE `think_plugin` SET `status`=1 WHERE ( id=43 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T11:05:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 43 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388113538,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005001s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=44 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388113548,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined property: SecondPlugin::$config_file F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 55 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\Plugin\Second\SecondPlugin.class.php 第 56 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:05:51+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:38:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388115480,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.013001s ]
+
+[ 2013-12-27T11:38:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=46 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:38:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T11:38:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388115502,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.050003s ]
+
+[ 2013-12-27T11:38:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T11:38:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388115538,1) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T11:39:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:42:21+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388115741,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 126 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:42:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=49 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T11:43:06+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.008000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T11:43:09+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:43:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388115792,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'econdP' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] include(): Filename cannot be empty F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;F:\Program Files\wamp\www\thinkphp\ThinkPHP/Extend/Vendor/') F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 128 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:44:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.059003s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T11:59:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','我的二个小插件','我的二个小插件',1,'thinkphp','0.1',1388116781,1) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'Second' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\Program Files\wamp\www\thinkphp\APP\Class\Plugin.class.php 第 127 行.
+SQL: UPDATE `think_plugin` SET `config`='null' WHERE ( name='Second' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T12:41:16+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/config
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.005001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Plugin/config.html]
+
+[ 2013-12-27T12:42:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/config/data/51.html
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Plugin/config.html]
+
+[ 2013-12-27T12:56:52+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.023002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024002s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.066003s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.258014s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.024001s ]
+
+[ 2013-12-27T12:56:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.023002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024002s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2013-12-27T12:57:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','ALL IN ONE SEO','我的二个小插件',1,'thinkphp','0.1',1388120222,1) [ RunTime:0.364021s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.107006s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'Second' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.066004s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( name='Second' ) [ RunTime:0.063004s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.047003s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T13:34:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/disable
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `status`=0 WHERE ( id=52 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T13:34:04+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T13:34:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','ALL IN ONE SEO','我的二个小插件',1,'thinkphp','0.1',1388122455,1) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'Second' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.001000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T14:29:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:29:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:29:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:29:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index/status/2.html
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:29:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index/status/2.html
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:29:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index/status/-1.html
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:30:02+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index/status/-1.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:30:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/newPost.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T14:30:59+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/newPost.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T17:34:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/newPost.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T20:57:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:09:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"1\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:09:36+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"1\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001001s ]
+
+[ 2013-12-27T21:10:10+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"1\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:13:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:15:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.008000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:15:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:24:39+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.001001s ]
+
+[ 2013-12-27T21:24:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:27:05+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:27:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:28:39+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:33:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:34:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.002000s ]
+
+[ 2013-12-27T21:34:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"1\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:35:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:49:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:49:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"2\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:49:45+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"Sunny12345\",\"width\":\"4\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:51:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"\\u6674\\u5929\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:54:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"\\u6674\\u5929\",\"width\":\"1\",\"display\":\"0\"}' WHERE ( id=53 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T21:55:07+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"\\u6674\\u5929\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( id=53 ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:55:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/uninstall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `id` = 53 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.007001s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_hooks` SET `plugins`='' WHERE ( name='pageHeader' ) [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_plugin` WHERE ( name='Second' ) [ RunTime:0.000000s ]
+
+[ 2013-12-27T21:57:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T21:57:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-12-27T22:09:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Plugin/install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.007000s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_plugin` WHERE ( `name` = 'Second' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\Program Files\wamp\www\thinkphp\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `think_plugin` (`name`,`title`,`description`,`status`,`author`,`version`,`create_time`,`has_adminlist`) VALUES ('Second','ALL IN ONE SEO','我的二个小插件',1,'thinkphp','0.1',1388153372,1) [ RunTime:0.092005s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: SELECT `config` FROM `think_plugin` WHERE ( `name` = 'Second' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"OneThink\\u5f00\\u53d1\\u56e2\\u961f\",\"width\":\"2\",\"display\":\"1\"}' WHERE ( name='Second' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hooks` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_hooks`  [ RunTime:0.000000s ]
+SQL: SELECT `plugins` FROM `think_hooks` WHERE ( name='pageHeader' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: o_addons F:\Program Files\wamp\www\thinkphp\APP\Modules\Admin\Model\HooksModel.class.php 第 81 行.
+SQL: UPDATE `think_hooks` SET `plugins`='Second' WHERE ( name='pageHeader' ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T22:09:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Plugin/saveConfig.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006001s ]
+SQL: SELECT `title`,`name` FROM `think_plugin` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_plugin` [ RunTime:0.006000s ]
+SQL: UPDATE `think_plugin` SET `config`='{\"title\":\"OneThink\\u5f00\\u53d1\\u56e2\\u961f\",\"width\":\"1\",\"display\":\"1\"}' WHERE ( id=54 ) [ RunTime:0.001000s ]
+
+[ 2013-12-27T22:17:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Post/index.html
+NOTIC: 建议使用I方法替代_post
+

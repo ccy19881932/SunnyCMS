@@ -1,0 +1,15 @@
+[ 2013-11-26T13:34:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/jump_to
+ERR: 模板不存在[./Home/Tpl/User/index.html]
+
+[ 2013-11-26T13:43:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/jump_to
+ERR: 模板不存在[./Home/Tpl/220sushe/Index/index.html]
+
+[ 2013-11-26T13:44:09+08:00 ] 127.0.0.1 /thinkphp/index.php/Index/jump_to
+ERR: 模板不存在[./Home/Tpl/220sushe/220sushe/Index/index.html]
+
+[ 2013-11-26T19:32:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Login/dologin
+ERR: 模板不存在[./Home/Tpl/220sushe/Login/dologin.html]
+
+[ 2013-11-26T20:19:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Login/code1
+ERR: 非法操作:code1
+

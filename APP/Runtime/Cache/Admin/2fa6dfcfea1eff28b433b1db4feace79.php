@@ -117,7 +117,7 @@
 		      </label>
 	  		</div>
       </div>
-      <button class="btn" onclick="ajaxFormHandle('PluginForm', 'alert', 'download');" id="submit">提　交</button>
+      <button class="btn" onclick="ajaxFormHandle('PluginForm', 'alert');" id="submit">提　交</button>
     </fieldset>
   </form>
   <form action="<?php echo U(GROUP_NAME.'/Plugin/download'); ?>" method="POST">

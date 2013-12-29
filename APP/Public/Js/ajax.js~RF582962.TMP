@@ -45,7 +45,7 @@ function closeAlert () {
     $('#alert').css('display','none');
 }
 
-function ajaxFormHandle ( form_id, showID ) {
+function ajaxFormHandle ( form_id, showID, other = '' ) {
     var options = { 
         success:function(response){
             titlehtml = response.info;
@@ -55,7 +55,10 @@ function ajaxFormHandle ( form_id, showID ) {
             } else {
                 $('#' + showID).html(titlehtml); 
             }  
-            allPrpos(response);
+            if(other != '' && response.status == 1){
+                $('#'+response.other0).val(otherhtml);
+                $('#'+other).click();
+            }
         },
         //target:        '#output1',   // target element(s) to be updated with server response 
         //beforeSubmit:  showRequest,  // pre-submit callback 
@@ -72,38 +75,6 @@ function ajaxFormHandle ( form_id, showID ) {
     $( '#'+form_id ).ajaxForm(options); 
 }
 
-function allPrpos ( obj ) {
-    var allNum = 0;
-    for(var j in obj){allNum++};
-    var num = 0;
-    var avg = new Array();
-    if(allNum%2 == 0) {
-        for ( var p in obj ){ 
-            num++;
-            if ( typeof ( obj [ p ]) == " function " ){ 
-                obj [ p ]() ;
-            } else { 
-                if( num > 2 ) {
-                    if(num%2 == 1){
-                        avg[0] = obj[p];
-                    }   
-                    if(num%2 == 0) {
-                        avg[1] = obj[p];
-                        otherAvgsHandle(avg[0], avg[1]); 
-                    }
-                }
-            } 
-        } //end for
-    }  
-}
-
-function otherAvgsHandle ( id, para ) {
-    switch(para){
-        case 'click':
-            $('#'+id).click();
-            break;
-        default:
-            $('#'+id).val(para);
-            break;
-    }
+function otherAvgsHandle () {
+    
 }

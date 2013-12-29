@@ -43,47 +43,42 @@ class PluginModel extends Model {
      */
     protected $_validate = array(
         array('name','require','插件名不能为空'), //默认情况下用正则进行验证
-        array('name','','已经有同名插件存在！',Model::EXISTS_VALIDATE ,'unique',Model:: MODEL_INSERT),
+        array('name','','已经有同名插件存在！',Model::EXISTS_VALIDATE ,'unique',Model::MODEL_INSERT),
     );
     /**
      * 获取插件列表
      * @param string $addon_dir
      */
-    public function getList($addon_dir = ''){
-        if(!$addon_dir)
-            $addon_dir = './Plugin/';
-        $dirs = array_map('basename',glob($addon_dir.'*', GLOB_ONLYDIR));
-        if($dirs === FALSE || !file_exists($addon_dir)){
+    public function getList($plugin_dir = ''){
+        if(!$plugin_dir)
+            $plugin_dir = './Plugin/';
+        $dirs = array_map('basename',glob($plugin_dir.'*', GLOB_ONLYDIR));
+        if($dirs === FALSE || !file_exists($plugin_dir)){
             $this->error = '插件目录不可读或者不存在';
             return FALSE;
         }
-		$addons			=	array();
+		$plugins		=	array();
 		$where['name']	=	array('in',$dirs);
 		$list			=	$this->where($where)->field(true)->select();
-		foreach($list as $addon){
-			$addon['uninstall']		=	0;
-			$addons[$addon['name']]	=	$addon;
+		foreach($list as $plugin){
+			$plugin['uninstall']	    =	0;
+			$plugins[$plugin['name']]	=	$plugin;
 		}
         foreach ($dirs as $value) {
-            if(!isset($addons[$value])){
-
-				// $class = get_addon_class($value);
-				// if(!class_exists($class)){ // 实例化插件失败忽略执行
-				// 	\Think\Log::record('插件'.$value.'的入口文件不存在！');
-				// 	continue;
-				// }
-    //             $obj    =   new $class;
+            if(!isset($plugins[$value])){
                 $obj = get_plugin_class($value);
-				$addons[$value]	= $obj->info;
-				if($addons[$value]){
-					$addons[$value]['uninstall'] = 1;
-                    unset($addons[$value]['status']);
+                if(empty($obj->info))
+                    continue;
+				$plugins[$value] = $obj->info;
+				if($plugins[$value]){
+					$plugins[$value]['uninstall'] = 1;
+                    unset($plugins[$value]['status']);
 				}
 			}
         }
-        int_to_string($addons, array('status'=>array(-1=>'损坏', 0=>'禁用', 1=>'启用', null=>'未安装')));
-        $addons = list_sort_by($addons,'uninstall','desc');
-        return $addons;
+        int_to_string($plugins, array('status'=>array(-1=>'损坏', 0=>'禁用', 1=>'启用', null=>'未安装')));
+        $plugins = list_sort_by($plugins,'uninstall','desc');
+        return $plugins;
     }
 
     /**

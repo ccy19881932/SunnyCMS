@@ -45,7 +45,7 @@ function closeAlert () {
     $('#alert').css('display','none');
 }
 
-function ajaxFormHandle ( form_id, showID ) {
+function ajaxFormHandle ( form_id, showID, other = '' ) {
     var options = { 
         success:function(response){
             titlehtml = response.info;
@@ -55,7 +55,24 @@ function ajaxFormHandle ( form_id, showID ) {
             } else {
                 $('#' + showID).html(titlehtml); 
             }  
-            allPrpos(response);
+            // var num = 0;
+            // for(var j in response){num++};
+            // if(num > 2) {
+            //     for( i=2; i<num; i++ ){
+            //         if(i%2 == 0 && response.status == 1){
+            //             var_avg1 = 'other'+(i-2);
+            //             var_avg2 = 'other'+(i-1);
+            //             alert(var_avg2);
+            //             alert(eval(response.var_avg2));
+            //             otherAvgsHandle( response.var_avg1, response.var_avg2 );                  
+            //         }
+            //     }          
+            // }
+allPrpos(response);
+            // if(other != '' && response.status == 1){
+            //     $('#'+response.other0).val(otherhtml);
+            //     $('#'+other).click();
+            // }
         },
         //target:        '#output1',   // target element(s) to be updated with server response 
         //beforeSubmit:  showRequest,  // pre-submit callback 
@@ -72,31 +89,6 @@ function ajaxFormHandle ( form_id, showID ) {
     $( '#'+form_id ).ajaxForm(options); 
 }
 
-function allPrpos ( obj ) {
-    var allNum = 0;
-    for(var j in obj){allNum++};
-    var num = 0;
-    var avg = new Array();
-    if(allNum%2 == 0) {
-        for ( var p in obj ){ 
-            num++;
-            if ( typeof ( obj [ p ]) == " function " ){ 
-                obj [ p ]() ;
-            } else { 
-                if( num > 2 ) {
-                    if(num%2 == 1){
-                        avg[0] = obj[p];
-                    }   
-                    if(num%2 == 0) {
-                        avg[1] = obj[p];
-                        otherAvgsHandle(avg[0], avg[1]); 
-                    }
-                }
-            } 
-        } //end for
-    }  
-}
-
 function otherAvgsHandle ( id, para ) {
     switch(para){
         case 'click':
@@ -106,4 +98,30 @@ function otherAvgsHandle ( id, para ) {
             $('#'+id).val(para);
             break;
     }
+}
+
+function allPrpos ( obj ) {
+  //   var allNum = 0;
+  // for(var j in obj){allNum++};
+  var props = "" ;
+  var num = 0;
+  for ( var p in obj ){ // 方法
+      num++;
+      if ( typeof ( obj [ p ]) == " function " ){ 
+        obj [ p ]() ;
+      } else { // p 为属性名称，obj[p]为对应属性的值
+        if(num > 2) {
+            if(num%2 == 0) {
+                avg[1] = obj[p];
+            }
+            if(num%2 == 1){
+                // otherAvgsHandle(p, obj[p]);
+                avg[0] = obj[p];
+            }            
+        }
+
+         props += p + " = " + obj [ p ] + " /t " ;
+      } 
+  } // 最后显示所有的属性
+   alert ( props ) ;
 }

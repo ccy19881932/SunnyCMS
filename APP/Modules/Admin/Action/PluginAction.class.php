@@ -26,8 +26,6 @@ class PluginAction extends CommonAction {
 
     //创建向导首页
     public function create(){
-        // if(!is_writable(ONETHINK_ADDON_PATH))
-        //     $this->error('您没有创建目录写入权限，无法使用此功能');
         $hooks = M('Hooks')->field('name,description')->select();
         $this->assign('Hooks',$hooks);
         $this->meta_title = '创建向导';
@@ -45,6 +43,23 @@ class PluginAction extends CommonAction {
         public function {$value}(\$param){
 
         }
+
+str;
+        }
+
+        $admin_list = '';
+        if( $data['pluginBack'] == 1 ) {
+            $admin_list = <<<str
+
+        public \$admin_list = array(
+            'model'=>'Example',			//要查的表
+			'fields'=>'*',				//要查的字段
+			'map'=>'',					//查询条件, 如果需要可以再插件类的构造方法里动态重置这个属性
+			'order'=>'id desc',			//排序,
+			'listKey'=>array( 			//这里定义的是除了id序号外的表格里字段显示的表头名
+					'字段名'=>'表头显示名'
+				),
+        );
 
 str;
         }
@@ -69,7 +84,7 @@ import('Class.Plugin', APP_PATH);
             'author'=>'{$data['pluginAuth']}',
             'version'=>'{$data['pluginVision']}'
         );
-
+		{$admin_list}
         public function install(){
             return true;
         }
@@ -84,19 +99,6 @@ str;
         return $tpl;
     }
 
-    public function checkForm(){
-        $data                   =   $_POST;
-        $data['info']['name']   =   trim($data['info']['name']);
-        if(!$data['info']['name'])
-            $this->error('插件标识必须');
-        //检测插件名是否合法
-        $addons_dir             =   ONETHINK_ADDON_PATH;
-        if(file_exists("{$addons_dir}{$data['info']['name']}")){
-            $this->error('插件已经存在了');
-        }
-        $this->success('可以创建');
-    }
-
     public function build(){
         $data             =   $_POST;
         $data['pluginID'] =   trim($data['pluginID']);
@@ -104,6 +106,8 @@ str;
         if(empty($data['pluginID'])) {
             $this->ajaxHandle(0,'插件唯一标识必须填写');
         }
+        if(!defined(PLUGIN_PATH))
+        	define('PLUGIN_PATH', './Plugin/');
         $plugin_path = PLUGIN_PATH.$data['pluginID'].'/';
         mkfile($plugin_path.$data['pluginID'].'Plugin.class.php');
         if($data['pluginConfig'] == 1) {
@@ -164,12 +168,13 @@ str;
         import('Class.pclzip', APP_PATH);
         $zipPath = 'Data/PluginTem/'.$data['pluginID'].'.zip';
         $plugin = new PclZip( $zipPath );
-        $v_list = $plugin->create( $plugin_path, PCLZIP_OPT_REMOVE_PATH, $plugin_path, PCLZIP_OPT_ADD_PATH, $data['pluginID'] );
+        $v_list = $plugin->create( $plugin_path, 
+        				 PCLZIP_OPT_REMOVE_PATH, $plugin_path);
         if ($v_list == 0) {
             $this->ajaxHandle(0, $plugin->errorInfo(true));
         }
         deldir($plugin_path);
-        $this->ajaxHandle(1, '创建成功', './'.$zipPath);
+        $this->ajaxHandle(1, '创建成功', 'pluginID', './'.$zipPath, 'download', 'click');
     }
     /**
      * 下载文件
@@ -183,7 +188,7 @@ str;
      * @param integer $expire  下载内容浏览器缓存时间
      * @return void
      */
-    function download ($filename, $showname='',$content='',$expire=180) {
+    public function download ($filename, $showname='',$content='',$expire=180) {
         $filename = I('filename');
         if(is_file($filename)) {
             $length = filesize($filename);
@@ -199,7 +204,6 @@ str;
             $showname = $filename;
         }
         $showname = basename($showname);
-        //发送Http Header信息 开始下载
         header("Pragma: public");
         header("Cache-control: max-age=".$expire);
         //header('Cache-Control: no-store, no-cache, must-revalidate');
@@ -211,7 +215,9 @@ str;
         header('Content-Encoding: none');
         header("Content-Transfer-Encoding: binary" );
         if($content == '' ) {
-            readfile($filename);
+            if(FALSE != readfile($filename)){
+            	unlink($filename);
+            }
         }else {
           echo($content);
         }
@@ -224,40 +230,13 @@ str;
 
         $this->meta_title = '插件列表';
         $this->list = D('Plugin')->getList();
+        //p($this->list);
         //$this->recordList($list);//分页用
         // 记录当前列表页的cookie
         Cookie('__forward__',$_SERVER['REQUEST_URI']);
         $this->display();
     }
 
-    /**
-     * 插件后台显示页面
-     * @param string $name 插件名
-     */
-    // public function adminList($name){
-    //     $class = get_addon_class($name);
-    //     if(!class_exists($class))
-    //         $this->error('插件不存在');
-    //     $addon  =   new $class();
-    //     $this->assign('addon', $addon);
-    //     $param  =   $addon->admin_list;
-    //     if(!$param)
-    //         $this->error('插件列表信息不正确');
-    //     $this->meta_title = $addon->info['title'];
-    //     extract($param);
-    //     $this->assign('title', $addon->info['title']);
-    //     if($addon->custom_adminlist)
-    //         $this->assign('custom_adminlist', $addon->addon_path.$addon->custom_adminlist);
-    //     $this->assign($param);
-    //     if(!isset($fields))
-    //         $fields = '*';
-    //     if(!isset($map))
-    //         $map = array();
-    //     if(isset($model))
-    //         $list = $this->lists(D("Addons://{$model}/{$model}")->field($fields),$map);
-    //     $this->assign('_list', $list);
-    //     $this->display();
-    // }
     /**
      * 更新数据 并重置 Hook
      */
@@ -335,10 +314,16 @@ str;
     /**
      * 通用 ajax 处理
      */
-    private function ajaxHandle ( $status, $info, $otherInfo = '' ) {
+    private function ajaxHandle ( $status, $info ) {
         $data['status'] = $status;
         $data['info'] = $info;
-        $data['other'] = $otherInfo;
+        $avg_num = func_num_args();
+        if($avg_num > 2) {
+            $avgs = func_get_args();
+            for ($i=2; $i <$avg_num ; $i++) { 
+              $data['other'.($i-2)] = $avgs[$i];
+            }      
+        }
         $this->ajaxReturn($data,'JSON');  
     }
     /**

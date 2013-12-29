@@ -19,7 +19,7 @@
 <body>
 <div style="display:none;" id="alert">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <span id="AlertMsg" ></span>
+    <span id="AlertMsg">aa</span>
 </div>
 <form class="left-content" id="big-form" action="<?php echo U(GROUP_NAME.'/Plugin/saveConfig'); ?>" method="POST">
 	<h2>设置插件 - [<?php echo $data['title']; ?>]</h2>
